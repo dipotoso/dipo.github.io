@@ -16,6 +16,10 @@
 
             // TODO: add your own access token
             mapboxgl.accessToken =
+<<<<<<< HEAD
+=======
+                '';
+>>>>>>> b72af003369345ab300bf6ddf7bd38a89080586a
 
             // TODO: create the map object using mapboxgl.map() function
             let map = new mapboxgl.Map({
