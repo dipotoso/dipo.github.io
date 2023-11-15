@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    max-width: 50%;
+    background-image: url(./images/desert_small.jpg);
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: #0c80f3;
+    border: 6px solid #0ff166;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.header-title {
+    font-family: 'Tangerine';
+    color: black;
+    font-size: 50px;
+
+    max-width: 400px;
+    margin: 20px 0px 5px 0px;
+}
+
+.mission {
+    font-family: 'san-serif', cursive;
+        color: black;
+        font-size: 20px;
+}
+
+.amount-box {
+   color: white;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    max-width: 400px;
+    margin: 20px 0px;
+
+}

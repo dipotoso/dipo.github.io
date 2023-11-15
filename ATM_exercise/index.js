@@ -1,0 +1,1 @@
+ReactDOM.render(< Account/>, document.getElementById('root'))

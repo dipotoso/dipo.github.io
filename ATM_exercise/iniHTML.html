@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Static Bank</title>
+    </head>
+    <body>
+        <h1> ATM Example</h1>
+        <label >
+            Deposit
+            <input 
+                type="number" 
+                name="deposit" 
+                id="deposit"
+                onchange="handleChange(value)"
+            />
+            <input 
+                type="submit" 
+                name="submit" 
+                id="submit" 
+                onclick="handleSubmit()"
+            />
+        </label>
+        <h2 id='total'>Account balance: $0</h2>
+        
+        <script>
+            let transactionState = 0;
+            let totalState = 0;
+            let status = `Account balance: $0`;
+
+            const handleChange = (value) => {
+                transactionState = Number(value);
+            }
+
+            const handleSubmit = () => {
+                totalState += transactionState;
+                status = `Account balance: $ ${totalState}`;
+                console.log(`Total: ${totalState}, Status: ${status}`);
+                document.getElementById('total').innerHTML = status;
+            }
+        </script>
+    </body>
+</html>
