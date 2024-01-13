@@ -1,0 +1,1 @@
+This is a simple app that uses graphQL to conduct CRUD actions on a JSON database of restaurants
